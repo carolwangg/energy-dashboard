@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 # CONFIGURATION
-API_KEY = os.environ.get("ELECTRICITY_MAPS_API_KEY", "em_dvZWWhYbyesH4J3FAgcbu5gpExFgxwT5")
+API_KEY = os.environ.get("ELECTRICITY_MAPS_API_KEY", "YOUR_API_KEY_HERE")
 ZONE = os.environ.get("ELECTRICITY_ZONE", "CA-ON")
 
 
